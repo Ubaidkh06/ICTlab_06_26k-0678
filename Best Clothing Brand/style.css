@@ -1,6 +1,5 @@
 body.background_image
 {
-    background-color: black;
     background-image: url("images/banner_clothes.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +31,20 @@ p.faq
 {
     color: aliceblue;
     margin: 50px;
+
+}
+.text
+{
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+}
+
+p.contact
+{
+    font-size: larger;
+    color: aliceblue;
+    text-align: left;
 }
 
 img.banner
@@ -61,12 +74,6 @@ a:hover
     color: rgb(255, 62, 62);
 }
 
-.text
-{
-    font-size: larger;
-    color: aliceblue;
-    text-align: center;
-}
 
 footer
 {
@@ -83,5 +90,16 @@ img
 
 table
 {
+    font-size: xx-large;
+    text-align: center;
     color: aliceblue;
+    border: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button
+{ 
+    padding: 12px; 
+    font-size: 16px;
 }
